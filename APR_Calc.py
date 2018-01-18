@@ -8,6 +8,6 @@ def main():
   for i in range(10):
       principle = principle * (1 + apr)
 
-  print("Investment value after 10 years is:", principle)
+  print("Investment value after 10 years is:", principle, sep="---")
 
-main() 
+main()
